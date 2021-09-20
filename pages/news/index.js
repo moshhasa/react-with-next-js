@@ -1,8 +1,16 @@
+import Link from 'next/link';
+
 const NewsPage = () => {
     return (
-        <h1>
-            News page
-        </h1>
+        <>
+            <h1>
+                The News page
+            </h1>
+            <ul>
+                <li><Link href="news/link_1"> Next Js - 1</Link></li>
+                <li>Nexx Js - 2</li>
+            </ul>
+        </>
     )
 }
 
